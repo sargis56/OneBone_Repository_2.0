@@ -183,11 +183,28 @@ GameObject:
   m_PrefabParentObject: {fileID: 1076882352474710, guid: 9dedfffe47d76624bbb847d44c4c17fa,
     type: 2}
   m_PrefabInternal: {fileID: 1203273044}
+--- !u!61 &234261772 stripped
+BoxCollider2D:
+  m_PrefabParentObject: {fileID: 61776669146106850, guid: 9dedfffe47d76624bbb847d44c4c17fa,
+    type: 2}
+  m_PrefabInternal: {fileID: 1203273044}
 --- !u!4 &234261778 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4415360110145754, guid: 9dedfffe47d76624bbb847d44c4c17fa,
     type: 2}
   m_PrefabInternal: {fileID: 1203273044}
+--- !u!114 &234261779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 234261771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05d1efaf8270f2640b892e00953c1ac2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitBox: {fileID: 234261772}
 --- !u!1001 &258686508
 Prefab:
   m_ObjectHideFlags: 0
@@ -317,8 +334,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fab2ff903eb71a4c8061eef5b753726, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player1: {fileID: 1076882352474710, guid: 9dedfffe47d76624bbb847d44c4c17fa, type: 2}
-  player2: {fileID: 1053872766670344, guid: 68250bb41b794f34eb50f8e69fddaf57, type: 2}
+  player1: {fileID: 234261771}
+  player2: {fileID: 204990925}
   nextLevel: Scenes/Level_Win
   currentLevelEnd: 11
 --- !u!114 &503799710
@@ -332,8 +349,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44acc507d7ca22b45a1ab58d223fdd70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player1: {fileID: 1076882352474710, guid: 9dedfffe47d76624bbb847d44c4c17fa, type: 2}
-  player2: {fileID: 1053872766670344, guid: 68250bb41b794f34eb50f8e69fddaf57, type: 2}
+  player1: {fileID: 234261771}
+  player2: {fileID: 204990925}
   imageLifebarBackground: {fileID: 783967590}
   lifebarBackgroundBonnie: {fileID: 21300046, guid: 708994dfa1e5bce41b27b993dd8bb95d,
     type: 3}

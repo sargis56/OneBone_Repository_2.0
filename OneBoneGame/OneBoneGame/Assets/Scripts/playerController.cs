@@ -53,7 +53,7 @@ public class playerController : MonoBehaviour {
     public bool gotHit = false;
     float gotHitTimer;
     public bool crouching = false;
-
+	
     // Use this for initialization
     void Start () {
 		rBody = this.GetComponent<Rigidbody2D>();
@@ -162,7 +162,7 @@ public class playerController : MonoBehaviour {
                 hp -= collision.gameObject.GetComponent<enemy>().damage;
                 updateLife();
                 updateLives();
-                //Debug.Log(hp);
+                Debug.Log(hp);
                 gotHit = true;
                 if (gameObject.transform.rotation.y == 0) //LEFT
                     rBody.AddForce(transform.right*3f);

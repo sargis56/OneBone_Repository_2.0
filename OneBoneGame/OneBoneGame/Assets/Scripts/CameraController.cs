@@ -29,19 +29,19 @@ public class CameraController : MonoBehaviour {
 
     void FixedUpdate()
     {
-		if (Input.GetKeyDown(KeyCode.Tab))
-		{
-			if (x == true)
-			{
-				x = false;
-			}
-			else
-			{
-				x = true;
-			}
-		}
+		//if (Input.GetKeyDown(KeyCode.Tab))
+		//{
+		//	if (x == true)
+		//	{
+		//		x = false;
+		//	}
+		//	else
+		//	{
+		//		x = true;
+		//	}
+		//}
 			
-		if (x == true)
+		if (playerSwitch.player1Active == true)
 			camTrans.position = new Vector3(playerBon.position.x, playerBon.position.y, camTrans.position.z);
 		else
 			camTrans.position = new Vector3(playerBob.position.x, playerBob.position.y, camTrans.position.z);

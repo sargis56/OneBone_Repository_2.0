@@ -15,7 +15,7 @@ public class playerSwitch : MonoBehaviour {
     Color player1AlphaChange;
     Color player2AlphaChange;
 
-    bool player1Active = true;
+    public static bool player1Active = true;
 
     // Use this for initialization
     void Start () {
