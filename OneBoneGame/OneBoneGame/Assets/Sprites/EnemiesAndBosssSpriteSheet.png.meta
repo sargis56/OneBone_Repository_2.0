@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 3a2a4562ce8578c4186d677b9d93037e
+timeCreated: 1513614008
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: EnemiesAndBosssSpriteSheet_0
+    21300002: EnemiesAndBosssSpriteSheet_1
+    21300004: EnemiesAndBosssSpriteSheet_2
+    21300006: EnemiesAndBosssSpriteSheet_3
+    21300008: EnemiesAndBosssSpriteSheet_4
+    21300010: EnemiesAndBosssSpriteSheet_5
+    21300012: EnemiesAndBosssSpriteSheet_6
+    21300014: EnemiesAndBosssSpriteSheet_7
+    21300016: EnemiesAndBosssSpriteSheet_8
+    21300018: EnemiesAndBosssSpriteSheet_9
+    21300020: EnemiesAndBosssSpriteSheet_10
+    21300022: EnemiesAndBosssSpriteSheet_11
+    21300024: EnemiesAndBosssSpriteSheet_12
+    21300026: EnemiesAndBosssSpriteSheet_13
+    21300028: EnemiesAndBosssSpriteSheet_15
+    21300030: EnemiesAndBosssSpriteSheet_17
+    21300032: EnemiesAndBosssSpriteSheet_28
+    21300034: EnemiesAndBosssSpriteSheet_29
+    21300036: EnemiesAndBosssSpriteSheet_30
+    21300038: EnemiesAndBosssSpriteSheet_31
+    21300040: EnemiesAndBosssSpriteSheet_32
+    21300042: EnemiesAndBosssSpriteSheet_33
+    21300044: EnemiesAndBosssSpriteSheet_34
+    21300046: EnemiesAndBosssSpriteSheet_35
+    21300048: EnemiesAndBosssSpriteSheet_36
+    21300050: EnemiesAndBosssSpriteSheet_37
+    21300052: EnemiesAndBosssSpriteSheet_38
+    21300054: EnemiesAndBosssSpriteSheet_39
+    21300056: EnemiesAndBosssSpriteSheet_40
+    21300058: EnemiesAndBosssSpriteSheet_41
+    21300060: EnemiesAndBosssSpriteSheet_42
+    21300062: EnemiesAndBosssSpriteSheet_43
+    21300064: EnemiesAndBosssSpriteSheet_44
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EnemiesAndBosssSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 200
+        width: 26
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesAndBosssSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 200
+        width: 27
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesAndBosssSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 200
+        width: 27
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesAndBosssSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 200
+        width: 23
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesAndBosssSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 200
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesAndBosssSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 200
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesAndBosssSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 200
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesAndBosssSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 200
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesAndBosssSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 200
+        width: 25
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesAndBosssSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 205
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesAndBosssSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 205
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesAndBosssSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 200
+        width: 33
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesAndBosssSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 205
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesAndBosssSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 210
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesAndBosssSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 207
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesAndBosssSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 204
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesAndBosssSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 142
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesAndBosssSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 142
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesAndBosssSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 142
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesAndBosssSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 142
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesAndBosssSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 142
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesAndBosssSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 142
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesAndBosssSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 143
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesAndBosssSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 142
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesAndBosssSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 142
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesAndBosssSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 159
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesAndBosssSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 142
+        width: 21
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesAndBosssSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesAndBosssSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 103
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesAndBosssSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 100
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesAndBosssSpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 100
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesAndBosssSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 100
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EnemiesAndBosssSpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 109
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
