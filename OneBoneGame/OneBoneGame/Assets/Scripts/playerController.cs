@@ -44,8 +44,9 @@ public class playerController : MonoBehaviour {
 	Rigidbody2D rBody;
     Animator anim;
 
-	public int hp;
-	private int lives;
+    public int hp;
+    private int storedHp;
+    private int lives;
 
 	public Transform currentSpawn;
 	public GameObject otherPlayer;
@@ -63,7 +64,9 @@ public class playerController : MonoBehaviour {
         else
             isBonnie = -1;
 		lives = 8;
-	}
+        storedHp = hp;
+
+    }
 	void FixedUpdate()
 	{
         rBody.freezeRotation = true;
@@ -177,7 +180,15 @@ public class playerController : MonoBehaviour {
                 Debug.Log("enemy : " + collision.gameObject.GetComponent<enemy>().hp);
             }
 		}
-	}
+
+        if ((collision.gameObject.tag == "healthPickup") && (hp < storedHp))
+        {
+            hp += collision.gameObject.GetComponent<healthPickup>().health;
+            updateLife();
+            updateLives();
+        }
+
+    }
 	private void OnTriggerEnter2D(Collider2D other)
 	{
 		if (other.tag == "spawn")

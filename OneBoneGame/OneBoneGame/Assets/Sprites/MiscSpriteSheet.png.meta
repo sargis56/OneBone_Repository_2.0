@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 708994dfa1e5bce41b27b993dd8bb95d
-timeCreated: 1514412067
+timeCreated: 1515024116
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -46,6 +46,15 @@ TextureImporter:
     21300078: Lives7
     21300080: MiscSpriteSheet_23
     21300082: MiscSpriteSheet_24
+    21300084: MiscSpriteSheet_25
+    21300086: MiscSpriteSheet_26
+    21300088: MiscSpriteSheet_27
+    21300090: MiscSpriteSheet_28
+    21300092: MiscSpriteSheet_29
+    21300094: MiscSpriteSheet_30
+    21300096: MiscSpriteSheet_31
+    21300098: MiscSpriteSheet_32
+    21300100: MiscSpriteSheet_33
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -706,6 +715,132 @@ TextureImporter:
         y: 365
         width: 95
         height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 287
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 287
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 287
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 287
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 287
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 287
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 289
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 289
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 289
+        width: 13
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
