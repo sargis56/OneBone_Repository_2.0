@@ -12,6 +12,7 @@ TagManager:
   - bullet
   - sword
   - healthPickup
+  - killbox
   layers:
   - Default
   - TransparentFX

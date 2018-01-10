@@ -47,7 +47,7 @@ public class playerController : MonoBehaviour {
 
     public int hp;
     private int storedHp;
-    private int lives;
+    public int lives;
 
 	public Transform currentSpawn;
 	public GameObject otherPlayer;
@@ -207,7 +207,7 @@ public class playerController : MonoBehaviour {
 		}
 	}
 
-	private void updateLife()
+	public void updateLife()
 	{
 
 		Debug.Log(hp);
@@ -294,7 +294,7 @@ public class playerController : MonoBehaviour {
 			break;
 		}
 	}
-	private void updateLives()
+	public void updateLives()
 	{
 		switch (lives) 
 		{
