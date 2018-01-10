@@ -42,7 +42,7 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 11
   m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
@@ -54,7 +54,7 @@ LightmapSettings:
     m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
-    serializedVersion: 8
+    serializedVersion: 9
     m_Resolution: 2
     m_BakeResolution: 40
     m_TextureWidth: 1024
@@ -87,7 +87,7 @@ LightmapSettings:
     m_PVRFilteringAtrousNormalSigma: 1
     m_PVRFilteringAtrousPositionSigma: 1
   m_LightingDataAsset: {fileID: 0}
-  m_ShadowMaskMode: 2
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -183,28 +183,11 @@ GameObject:
   m_PrefabParentObject: {fileID: 1076882352474710, guid: 9dedfffe47d76624bbb847d44c4c17fa,
     type: 2}
   m_PrefabInternal: {fileID: 1203273044}
---- !u!61 &234261772 stripped
-BoxCollider2D:
-  m_PrefabParentObject: {fileID: 61776669146106850, guid: 9dedfffe47d76624bbb847d44c4c17fa,
-    type: 2}
-  m_PrefabInternal: {fileID: 1203273044}
 --- !u!4 &234261778 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4415360110145754, guid: 9dedfffe47d76624bbb847d44c4c17fa,
     type: 2}
   m_PrefabInternal: {fileID: 1203273044}
---- !u!114 &234261779
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 234261771}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05d1efaf8270f2640b892e00953c1ac2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hitBox: {fileID: 234261772}
 --- !u!1001 &258686508
 Prefab:
   m_ObjectHideFlags: 0
@@ -581,6 +564,8 @@ SpriteRenderer:
   m_Size: {x: 25, y: 5.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &739441348
 GameObject:
   m_ObjectHideFlags: 0
@@ -686,9 +671,9 @@ MonoBehaviour:
   playerBob: {fileID: 204990932}
   Bon: {fileID: 0}
   Bob: {fileID: 0}
-  bounds: 0
-  minCameraPos: {x: 0, y: 0, z: -5}
-  maxCameraPos: {x: 0, y: 0, z: -5}
+  bounds: 1
+  minCameraPos: {x: -7.66, y: -2.46, z: -5}
+  maxCameraPos: {x: 7.66, y: -2.46, z: -5}
 --- !u!1 &783148887
 GameObject:
   m_ObjectHideFlags: 0
@@ -758,6 +743,8 @@ SpriteRenderer:
   m_Size: {x: 25, y: 5.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &783967588
 GameObject:
   m_ObjectHideFlags: 0
@@ -1071,11 +1058,6 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114901401255830650, guid: 9dedfffe47d76624bbb847d44c4c17fa,
         type: 2}
-      propertyPath: otherPlayer
-      value: 
-      objectReference: {fileID: 204990925}
-    - target: {fileID: 114901401255830650, guid: 9dedfffe47d76624bbb847d44c4c17fa,
-        type: 2}
       propertyPath: imageLifebar
       value: 
       objectReference: {fileID: 1840089467}
@@ -1084,6 +1066,11 @@ Prefab:
       propertyPath: imageLives
       value: 
       objectReference: {fileID: 1174033811}
+    - target: {fileID: 114901401255830650, guid: 9dedfffe47d76624bbb847d44c4c17fa,
+        type: 2}
+      propertyPath: otherPlayer
+      value: 
+      objectReference: {fileID: 204990925}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9dedfffe47d76624bbb847d44c4c17fa, type: 2}
   m_IsPrefabParent: 0

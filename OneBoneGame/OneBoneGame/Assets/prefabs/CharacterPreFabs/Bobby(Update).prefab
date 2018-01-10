@@ -157,7 +157,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1053872766670344}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -1.3, y: -1.26, z: 0}
+  m_LocalPosition: {x: -6.415087, y: 0.9228293, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4758149912079700}
@@ -348,6 +348,8 @@ MonoBehaviour:
   attacking: 0
   attackEffect: {fileID: 1103196739009742, guid: 6a0aae16b88317e45b011c015548d842,
     type: 2}
+  enemyExplosion: {fileID: 1202166977574250, guid: 792854ce50448fd40ac24cdd5ed87637,
+    type: 2}
   isBonnie: 0
   grounded: 0
   hp: 60
@@ -415,3 +417,5 @@ SpriteRenderer:
   m_Size: {x: 4.8, y: 6.1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0

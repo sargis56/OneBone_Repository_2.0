@@ -111,6 +111,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 480ee38b6aa518a42b9bbc4b556998fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackEffect: {fileID: 1103196739009742, guid: 6a0aae16b88317e45b011c015548d842,
+    type: 2}
+  enemyExplosion: {fileID: 1202166977574250, guid: 792854ce50448fd40ac24cdd5ed87637,
+    type: 2}
 --- !u!212 &212219496504282224
 SpriteRenderer:
   m_ObjectHideFlags: 1

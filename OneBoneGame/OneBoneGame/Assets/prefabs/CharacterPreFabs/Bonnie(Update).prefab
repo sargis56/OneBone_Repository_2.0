@@ -25,6 +25,8 @@ GameObject:
   - component: {fileID: 114901401255830650}
   - component: {fileID: 95250520456205072}
   - component: {fileID: 61776669146106850}
+  - component: {fileID: 114413945267288506}
+  - component: {fileID: 114094662356596190}
   m_Layer: 0
   m_Name: Bonnie(Update)
   m_TagString: bonnie
@@ -67,7 +69,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1076882352474710}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -1.3, y: -1.26, z: 0}
+  m_LocalPosition: {x: -2.7449687, y: -4.055451, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4233624157415748}
@@ -100,7 +102,7 @@ BoxCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1076882352474710}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -161,6 +163,30 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114094662356596190
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1076882352474710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05d1efaf8270f2640b892e00953c1ac2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitBox: {fileID: 61776669146106850}
+--- !u!114 &114413945267288506
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1076882352474710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05d1efaf8270f2640b892e00953c1ac2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitBox: {fileID: 61776669146106850}
 --- !u!114 &114901401255830650
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -198,6 +224,8 @@ MonoBehaviour:
   spriteLives1: {fileID: 21300074, guid: 708994dfa1e5bce41b27b993dd8bb95d, type: 3}
   attacking: 0
   attackEffect: {fileID: 1103196739009742, guid: 6a0aae16b88317e45b011c015548d842,
+    type: 2}
+  enemyExplosion: {fileID: 1202166977574250, guid: 792854ce50448fd40ac24cdd5ed87637,
     type: 2}
   isBonnie: 0
   grounded: 0
@@ -246,3 +274,5 @@ SpriteRenderer:
   m_Size: {x: 0.24, y: 0.41}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
