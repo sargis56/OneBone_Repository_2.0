@@ -10,10 +10,13 @@ public class sceneLoader : MonoBehaviour {
     public GameObject player2;
     public string nextLevel;
     public float currentLevelEnd;
+    public bool finalLevel = false;
+    GameObject aEnemy;
 
     // Use this for initialization
     void Start () {
         rb = GetComponent<Rigidbody2D>();
+        aEnemy = GameObject.FindGameObjectWithTag("enemy");
         //SceneManager.LoadScene(level2);
     }
 	
@@ -21,7 +24,18 @@ public class sceneLoader : MonoBehaviour {
 	void Update () {
 		if ((player1.GetComponent<Rigidbody2D>().position.x >= currentLevelEnd) || (player2.GetComponent<Rigidbody2D>().position.x >= currentLevelEnd))
         {
-            SceneManager.LoadScene(nextLevel);
+            if (finalLevel == true)
+            {
+                if (aEnemy == null)
+                {
+                    SceneManager.LoadScene(nextLevel);
+                }
+            }
+            else
+            {
+                SceneManager.LoadScene(nextLevel);
+            }
+            //SceneManager.LoadScene(nextLevel);
         }
 	}
 }

@@ -4266,7 +4266,8 @@ Prefab:
         type: 2}
       propertyPath: enemyExplosion
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1202166977574250, guid: 792854ce50448fd40ac24cdd5ed87637,
+        type: 2}
     - target: {fileID: 114329345056398290, guid: 68250bb41b794f34eb50f8e69fddaf57,
         type: 2}
       propertyPath: otherPlayer
@@ -8155,7 +8156,8 @@ Prefab:
         type: 2}
       propertyPath: enemyExplosion
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1202166977574250, guid: 792854ce50448fd40ac24cdd5ed87637,
+        type: 2}
     - target: {fileID: 114901401255830650, guid: 9dedfffe47d76624bbb847d44c4c17fa,
         type: 2}
       propertyPath: otherPlayer

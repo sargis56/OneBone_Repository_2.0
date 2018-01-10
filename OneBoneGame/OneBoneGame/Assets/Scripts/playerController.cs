@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 
 [System.Serializable]
 public class playerController : MonoBehaviour {
@@ -190,6 +190,11 @@ public class playerController : MonoBehaviour {
             hp += collision.gameObject.GetComponent<healthPickup>().health;
             updateLife();
             updateLives();
+        }
+
+        if (lives == 0)
+        {
+            SceneManager.LoadScene("Scenes/Level_End");
         }
 
     }
